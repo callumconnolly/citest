@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body style="text-align:center">
+<h1>Welcome to Kubrick People Data Management</h1>
+<img src="./kubrick.png" width="200px"/><br />
+<p>Add a person</p>
+<form method="post" action="http://127.0.0.1:5000/addpeople">
+    First Name<br/><input type="text" size="50" name="firstname"/><br/>
+    Last Name<br/><input type="text" size="50" name="lastname"/><br/>
+    Email<br/><input size="50" type="text" name="emailaddress"/><br/>
+    <input type="submit" name="addperson" value="Add Person"/>
+</form>
+</body>
+</html>
